@@ -1,0 +1,10 @@
+---
+Name: Slider
+After: "*"
+---
+Sola\HomePage:
+  extensions:
+    - Schrattenholz\Slider\SliderExtension
+Silverstripe\SiteConfig\SiteConfig:
+  extensions:
+    - Schrattenholz\Slider\Slider_SiteConfigExtension
