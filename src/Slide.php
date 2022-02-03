@@ -56,8 +56,8 @@ class Slide extends DataObject{
 			
 			return $this->Image();
 		}else{
-			$config =SiteConfig::current_site_config(); 
-			return $config->Slider_TeaserDefaultImage();
+			 
+			return false;
 		}
 	}
 	 public function canView($member = null) 
