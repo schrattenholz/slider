@@ -33,7 +33,7 @@ class SliderExtension extends DataExtension {
 			);
 			
 			//$gridFieldConfig->setFolderName($this->Link());
-			$dataColumns=$gridFieldConfig->getComponentByType('GridFieldDataColumns');
+			$dataColumns=$gridFieldConfig->getComponentByType(GridFieldDataColumns::class);
 			  $dataColumns->setDisplayFields(array(
 				   'Title'=>'Bezeichnung',
 				   'getThumbnail'=>'Thumbnail'
