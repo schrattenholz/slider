@@ -29,7 +29,6 @@ class SliderExtension extends DataExtension {
 			// RevoSlider Tab
 			$gridFieldConfig = GridFieldConfig_RelationEditor::create()->addComponents(
 				new GridFieldDeleteAction(),
-				$dataColumns=new GridFieldDataColumns(),
 				new GridFieldOrderableRows('SortID')
 			);
 			
