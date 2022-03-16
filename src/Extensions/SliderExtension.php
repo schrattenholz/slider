@@ -33,7 +33,7 @@ class SliderExtension extends DataExtension {
 			);
 			
 			//$gridFieldConfig->setFolderName($this->Link());
-			//$gridFieldConfig->getComponentByType('GridFieldBulkImageUpload')->setConfig('fieldsClassBlacklist', array('TreeDropdownField'));
+			$dataColumns=$gridFieldConfig->getComponentByType('GridFieldDataColumns');
 			  $dataColumns->setDisplayFields(array(
 				   'Title'=>'Bezeichnung',
 				   'getThumbnail'=>'Thumbnail'
