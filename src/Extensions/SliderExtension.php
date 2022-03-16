@@ -37,7 +37,7 @@ class SliderExtension extends DataExtension {
 			//$gridFieldConfig->getComponentByType('GridFieldBulkImageUpload')->setConfig('fieldsClassBlacklist', array('TreeDropdownField'));
 			  $dataColumns->setDisplayFields(array(
 				   'Title'=>'Bezeichnung',
-				   'Thumbnail'=>'Thumbnail'
+				   'getCMSThumbnail'=>'Thumbnail'
 			));
 			$sliderImages = new GridField("Slides", "Slider-Bilder", $this->owner->Slides()->sort('SortID'), $gridFieldConfig);
 			$fields->addFieldToTab('Root.Slider', $sliderImages);

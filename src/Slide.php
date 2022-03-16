@@ -29,7 +29,10 @@ class Slide extends DataObject{
 		'Page'=>SiteTree::class,
 		
 	];
-	
+	public function getThumbnail(){
+		
+		return $this->BackgroundImage()->getCMSThumbnail();
+	}
 	private static $summary_fields = [
 		'Title' => 'Titel'
     ];
