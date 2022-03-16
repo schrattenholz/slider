@@ -31,7 +31,7 @@ class Slide extends DataObject{
 	];
 	public function getThumbnail(){
 		
-		return $this->BackgroundImage()->getCMSThumbnail();
+		return $this->BackgroundImage()->CMSThumbnail();
 	}
 	private static $summary_fields = [
 		'Title' => 'Titel'
