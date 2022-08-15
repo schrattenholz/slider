@@ -4,7 +4,7 @@
         <!-- Item-->
 		<% loop Slides %>
         <div class="px-lg-5" style="background-color: rgb(180, 191, 94);<% if $BackgroundImage %>background:url('$BackgroundImage.URL');background-size:cover;background-position:center;<% end_if %>">
-          <div class="d-lg-flex justify-content-between align-items-center pl-lg-4"><img class="d-block order-lg-2 mr-lg-n5 flex-shrink-0" src="<% if $TeaserImage %>$TeaserImage.Fill(967,500).URL<% else %>{$BaseHref}public/_resources/vendor/schrattenholz/slider/img/slider_default.png<% end_if %>" alt="$TeaserImage.Title">
+          <div class="d-lg-flex justify-content-between align-items-center pl-lg-4"><img class="d-block order-lg-2 mr-lg-n5 flex-shrink-0" src="<% if $TeaserImage %>$TeaserImage.Fill(967,500).URL<% else %>{$BaseHref}public/_resources/vendor/schrattenholz/slider/img/slider_default.png<% end_if %>" alt="$Title">
             <div class="position-relative mx-auto mr-lg-n5 py-5 px-4  order-lg-1" style="max-width: 42rem; z-index: 10;">
               <div class=" text-center text-lg-left text-lg-nowrap">
                 <h2 class="font-weight-light pb-1 from-left">$SecondRow</h2>
