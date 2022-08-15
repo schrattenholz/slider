@@ -9,10 +9,6 @@ use SilverStripe\Assets\Image;
 
 class Slider_SiteConfigExtension extends DataExtension 
 {
-
-    private static $db = [
-		"Test"=>"Text",
-    ];
 	private static $has_one=[
 		'Slider_TeaserDefaultImage'=>Image::class,
 
