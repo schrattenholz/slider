@@ -1,6 +1,6 @@
     <!-- Hero slider-->
     <section class="cz-carousel cz-controls-lg">
-      <div class="cz-carousel-inner" data-carousel-options="{&quot;mode&quot;: &quot;gallery&quot;, &quot;responsive&quot;: {&quot;0&quot;:{&quot;nav&quot;:true, &quot;controls&quot;: false},&quot;992&quot;:{&quot;nav&quot;:false, &quot;controls&quot;: true}}}">
+      <div class="cz-carousel-inner" ">
         <!-- Item-->
 		<% loop Slides %>
         <div class="px-lg-5" style="background-color: rgb(180, 191, 94);<% if $BackgroundImage %>background:url('$BackgroundImage.URL');background-size:cover;background-position:center;<% end_if %>">

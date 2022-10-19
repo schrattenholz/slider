@@ -29,6 +29,7 @@ class Slide extends DataObject{
 		'Page'=>SiteTree::class,
 		
 	];
+	
 	public function getThumbnail(){
 		
 		return $this->BackgroundImage()->CMSThumbnail();
@@ -65,7 +66,7 @@ class Slide extends DataObject{
 	}
 	 public function canView($member = null) 
     {
-        return Permission::check('CMS_ACCESS_CMSMain', 'any', $member);
+        return true;
     }
 
     public function canEdit($member = null) 
