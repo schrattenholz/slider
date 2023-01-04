@@ -12,7 +12,8 @@
     ],
 	"extra": {
 		"expose": [
-			"img"
+			"img",
+			"templates"
 		]
 	  },
 	  "autoload": {
